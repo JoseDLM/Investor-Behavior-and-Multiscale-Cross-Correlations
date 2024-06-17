@@ -14,7 +14,7 @@ This repository contains MATLAB code for data analysis and visualization. The pr
 4. [Dependencies](#dependencies)
 5. [Project Structure](#project-structure)
 
-## Introduction
+## 1. Introduction
 
 This project involves data preparation, preprocessing, static and dynamic analysis, and filtering through the Minimum Spanning Tree (MST) method. The main script orchestrates the workflow by calling several other scripts.
 
@@ -46,7 +46,7 @@ Computing the dynamic behavior of DCCA coefficients using a sliding window techn
 Construct the MST using the computed DCCA coefficients and distances.
 Compute and plot the spectrum of the adjacency matrix representing the network formed by the DCCA coefficients.
 
-## Setup
+## 2. Setup
 
 Steps to set up the project:
 
@@ -61,7 +61,7 @@ Steps to set up the project:
     addpath(genpath('path/to/your/repository'));
     ```
 
-## Running the Project
+## 3. Running the Project
 
 To run the project, open MATLAB, navigate to the repository directory, and run the `main.m` script:
 1. Open MATLAB.
@@ -74,11 +74,11 @@ To run the project, open MATLAB, navigate to the repository directory, and run t
     run('main.m');
     ```
 
-## Dependencies
+## 4. Dependencies
 
 - MATLAB R2021b or later
 
-## Project Structure
+## 5. Project Structure
 
 - `main.m`: Main script to run the entire project after configuringinput parameters
 - `scripts/`: Folder containing individual scripts
