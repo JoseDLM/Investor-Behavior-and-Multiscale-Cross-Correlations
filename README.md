@@ -49,7 +49,6 @@ To run the project, open MATLAB, navigate to the repository directory, and run t
 ## Dependencies
 
 - MATLAB R2021b or later
-- List any required toolboxes or external dependencies
 
 ## Project Structure
 
