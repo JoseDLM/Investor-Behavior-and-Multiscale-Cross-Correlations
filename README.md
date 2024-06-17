@@ -18,10 +18,9 @@ This project involves data preparation, preprocessing, static and dynamic analys
 #### Step 1. Initializing the parameters
 
 Data collection from Yahoo Finance.
-Select the assets (tickers), specify the start and end dates, choose the frequency (ranging from daily to quarterly), and indicate whether to  download closing, opening, or adjusted prices (adjustments for this last point can be made  in the file downloadingData).
-
-select the rolling window size w
-select the time scale s
+-- Select the assets (tickers), specify the start and end dates, choose the frequency (ranging from daily to quarterly), and indicate whether to  download closing, opening, or adjusted prices (adjustments for this last point can be made  in the file downloadingData).
+-- Select the rolling window size w
+-- Select the time scale s
 
 #### Step 2: Data Downloading, cleaning, and exporting
 Downloading the data and merging it into a single table
