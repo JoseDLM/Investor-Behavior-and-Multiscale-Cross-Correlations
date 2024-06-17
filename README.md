@@ -33,8 +33,8 @@ Compute log-returns of the data.
 Filter the data using GARCH(1,1) to estimate conditional variance.
 
 Normalize the results using the transformation formula
-![r_{t,f} = r_t \sqrt{h_t}], where
-![h_t] is the conditional variance obtained from GARCH(1,1).
+![r_{t,f} = r_t \sqrt{h_t}](https://latex.codecogs.com/png.latex?r_{t,f}%20=%20r_t%20\sqrt{h_t}), where
+![h_t](https://latex.codecogs.com/png.latex?h_t) is the conditional variance obtained from GARCH(1,1).
 
 ### Part II - Dynamic analysis and filtering through the MST
 
