@@ -14,12 +14,12 @@ This repository contains MATLAB code for data analysis and visualization. The pr
 4. [Dependencies](#dependencies)
 5. [Project Structure](#project-structure)
 
-## 1. Introduction
+## Introduction
 
 This project involves data preparation, preprocessing, static and dynamic analysis, and filtering through the Minimum Spanning Tree (MST) method. The main script orchestrates the workflow by calling several other scripts.
 
-## Part I - Data preparation
-### Step 1. Initializing the parameters
+### Part I - Data preparation
+#### Step 1. Initializing the parameters
 
 Data collection from Yahoo Finance.
 Select the assets (tickers), specify the start and end dates, choose the frequency (ranging from daily to quarterly), and indicate whether to  download closing, opening, or adjusted prices (adjustments for this last point can be made  in the file downloadingData).
@@ -27,26 +27,26 @@ Select the assets (tickers), specify the start and end dates, choose the frequen
 select the rolling window size w
 select the time scale s
 
-### Step 2: Data Downloading, cleaning, and exporting
+#### Step 2: Data Downloading, cleaning, and exporting
 Downloading the data and merging it into a single table
 Cleaning the data to ensure accuracy and consistency
 Exporting the cleaned data as a spreadsheet
 
-### Step 3. Data preprocessing ( apply a GARCH filter to reduce potential volatility bias across different time windows)
+#### Step 3. Data preprocessing ( apply a GARCH filter to reduce potential volatility bias across different time windows)
 Compute log-returns of the data.
 Filter the data using GARCH(1,1) to estimate conditional variance.
 Normalize the results using the transformation formula   , where is the conditional variance obtained from GARCH(1,1).
 
-## Part II - Dynamic analysis and filtering through the MST
+### Part II - Dynamic analysis and filtering through the MST
 
-### Step 4.
+#### Step 4.
 
 Computing the dynamic behavior of DCCA coefficients using a sliding window technique.
-### Step 5.
+#### Step 5.
 Construct the MST using the computed DCCA coefficients and distances.
 Compute and plot the spectrum of the adjacency matrix representing the network formed by the DCCA coefficients.
 
-## 2. Setup
+## Setup
 
 Steps to set up the project:
 
@@ -61,7 +61,7 @@ Steps to set up the project:
     addpath(genpath('path/to/your/repository'));
     ```
 
-## 3. Running the Project
+## Running the Project
 
 To run the project, open MATLAB, navigate to the repository directory, and run the `main.m` script:
 1. Open MATLAB.
@@ -74,11 +74,11 @@ To run the project, open MATLAB, navigate to the repository directory, and run t
     run('main.m');
     ```
 
-## 4. Dependencies
+## Dependencies
 
 - MATLAB R2021b or later
 
-## 5. Project Structure
+## Project Structure
 
 - `main.m`: Main script to run the entire project after configuringinput parameters
 - `scripts/`: Folder containing individual scripts
