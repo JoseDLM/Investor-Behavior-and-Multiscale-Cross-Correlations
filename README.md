@@ -86,7 +86,7 @@ To run the project, open MATLAB, navigate to the repository directory, and run t
   - [`filtering_MST.m`](scripts/filtering_MST.m): Script to filter data using MST
   - [`plotDensities.m`](scripts/plotDensities.m): Script to plot densities
 - `functions/`: Folder for storing reusable functions
-  - [`DCCA.m`](functions/DCCA.m): Function to compute DCCA coefficients
+  - [`DCCA.m`](functions/DCCA.m): Function to compute Detrended Cross-Correlation Coefficient (DCCA) coefficients
   - [`getMarketDataViaYahoo.m`](functions/getMarketDataViaYahoo.m): Function to download market data from Yahoo Finance
 
 
