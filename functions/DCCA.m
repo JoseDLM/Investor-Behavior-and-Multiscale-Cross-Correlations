@@ -1,3 +1,6 @@
+% Detrended cross-correlation coeficcient as in Podobnik, B. & Stanley, H. Detrended cross-correlation analysis: a new method for analyzing two non-stationary time
+% series. Phys. Rev. Lett. 100, 084102, DOI: 10.1103/PhysRevLett.100.084102 (2008).
+
 function [rho_DCCA, F_DCCA, F_DFA_X, F_DFA_Y] = DCCA(x, y, s)
     % Input:
     % x, y: vectors of time series data
