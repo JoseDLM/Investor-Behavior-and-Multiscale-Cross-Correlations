@@ -2,7 +2,7 @@
 This MATLAB code repository features an algorithm using the **Detrended Cross-Correlation Cost (DCCC)** indicator to analyze shifts in investment strategies during financial crises, validated with data from major economies, highlighting its predictive capabilities for market changes.
 The project is divided into several parts, each of which performs a specific task.
 
-# MATLAB Project
+# Matlab Project
 
 This repository contains MATLAB code for data analysis and visualization. The project is divided into several parts, each of which performs a specific task.
 
@@ -52,8 +52,7 @@ To run the project, open MATLAB, navigate to the repository directory, and run t
 
 ## Project Structure
 
-- `main.m`: Main script to run the entire project
-- `config.m`: Configuration file for input parameters
+- `main.m`: Main script to run the entire project after configuringinput parameters
 - `scripts/`: Folder containing individual scripts
   - [`download.m`](scripts/download.m): Script to download data from Yahoo Finance
   - [`preprocessing.m`](scripts/preprocessing.m): Script to preprocess the data
