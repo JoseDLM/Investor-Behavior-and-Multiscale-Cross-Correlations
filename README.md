@@ -80,7 +80,7 @@ To run the project, open MATLAB, navigate to the repository directory, and run t
 
 ## Project Structure
 
-- `main.m`: Main script to run the entire project after configuringinput parameters
+- [`main.m`](main.m): Main script to run the entire project
 - `scripts/`: Folder containing individual scripts
   - [`download.m`](scripts/download.m): Script to download data from Yahoo Finance
   - [`preprocessing.m`](scripts/preprocessing.m): Script to preprocess the data
