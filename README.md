@@ -31,7 +31,17 @@ Exporting the cleaned data as a spreadsheet
 #### Step 3. Data preprocessing ( apply a GARCH filter to reduce potential volatility bias across different time windows)
 Compute log-returns of the data.
 Filter the data using GARCH(1,1) to estimate conditional variance.
-Normalize the results using the transformation formula   , where is the conditional variance obtained from GARCH(1,1).
+Normalize the results using the transformation formula
+![r_{t,f} = r_t \sqrt{h_t}](https://latex.codecogs.com/png.latex?r_{t,f}%20=%20r_t%20\sqrt{h_t}), where ![h_t](https://latex.codecogs.com/png.latex?h_t) is the conditional variance obtained from GARCH(1,1).
+You can use the ![alt text](url) syntax to display the formula as an image generated from a LaTeX code. This uses an external service (like LaTeX Codecogs) to render the formula. Here, the URLs encode the LaTeX for the formulas.
+
+Here's the code formatted for easier reading:
+
+markdown
+Copy code
+Normalize the results using the transformation formula
+![r_{t,f} = r_t \sqrt{h_t}](https://latex.codecogs.com/png.latex?r_{t,f}%20=%20r_t%20\sqrt{h_t}), where
+![h_t](https://latex.codecogs.com/png.latex?h_t) is the conditional variance obtained from GARCH(1,1).
 
 ### Part II - Dynamic analysis and filtering through the MST
 
