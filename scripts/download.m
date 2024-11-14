@@ -17,7 +17,7 @@ symbol = {'^GSPC','^GSPTSE','^FCHI','^GDAXI','FTSEMIB.MI','^N225', '^FTSE','^HSI
 
 for k = 1:length(symbol); 
        
-    data = getMarketDataViaYahoo(symbol{k}, initDate, endDate,integral);
+    data = getMarketDataViaYahoo(symbol{k}, initDate, endDate,interval);
     
     ts(k) = timeseries(data.Close, datestr(data(:,1).Date));
     
